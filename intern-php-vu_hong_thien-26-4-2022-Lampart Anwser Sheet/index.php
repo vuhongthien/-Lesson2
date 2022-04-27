@@ -88,7 +88,7 @@
                     ?>
                     <th style="width: 63px;"><a href='index.php?trang=<?= $y?>'>Next</a></th>
                 </tr>
-             </table>;
+             </table>
                
         </div>
         <div class="footkhung">
