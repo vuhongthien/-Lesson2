@@ -42,10 +42,10 @@ a {
     border-radius: 5px;
     display: inline-block;
 }
-.products,input.bt:hover {
+.products:hover {
     background-color: #ffffff;
     color: #006eff;
-    padding: 12px 12px;
+    
     
 }
 .Categories {
