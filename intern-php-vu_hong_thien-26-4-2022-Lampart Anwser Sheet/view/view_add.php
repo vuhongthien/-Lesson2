@@ -38,8 +38,8 @@
                 <label>Category</label>                      
                 <select class="ip" id="sl"  name="category"  class="category">
                     <?php
-                        include"../model/editproduct.php";
-                        foreach ( $result as $item ) {                            
+                        include"../model/editproduct.php"; // truyền vào file editproduct
+                        foreach ( $result as $item ) {         // tạo lòng lặp dê đổ dữ liệu                    
                     ?>                    
                     <option value="<?php echo $item['ID_category']; ?>"><?php echo $item['tencategory']; ?></option>
                     <?php
